@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPrimerPagina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Alvarez Rocio</h2>
+        <dl>
+            <dt>
+                Mi nombre es Alvarez Rocio, Belen y soy estudiante de Analisis de Sistema
+            </dt> 
+        </dl>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#seccion1">Informacion Personal</a>
+            </li>
+            <li>
+                <a href="#seccion2">Pasatiempos</a>
+            </li>
+            <li>
+                <a href="#seccion3">Formulario</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="seccion1">
+        <article>
+            <h3>Informacion Personal</h3>
+        </article>
+        <p>Mi nombre es Alvarez Rocio, soy estudiante de Analisis y sistemas informatico en el instituto Superior del Milagro. Seleccione esta carrera ya que me apasiona la tecnologia y estoy comprometida en aprender constantemente para mantenerme al tanto de las últimas tendencias en el mundo de la tecnología.</p>
+    </section>
+    <section id="seccion2">
+        <article>
+            <h3>Pasatiempos</h3>
+        </article>
+        <p>Disfruto compartir mi tiempo con mis perros y amigos.</p>
+        <img src="img/perritos.jpg" alt="perritos">
+        <img src="img/amigas.jpeg" alt="amigas">
+    </section> 
+    <section id="seccion3">
+        <article>
+            <h3>Formulario</h3>
+        </article>
+    </section>
+    <form>
+        <label for="nombre ">Nombre:</label>
+        <input type="texto" name="nombre" required>
+        <br>
+        <br>
+        <label for="apellido ">Apellido:</label>
+        <input type="texto" name="apellido" required>
+        <br>
+        <br>
+        <input type="radio" name="genero" value="hombre" checked> hombre
+        <input type="radio" name="genero" value="mujer" checked> mujer
+        <input type="radio" name="genero" value="otro" checked> otros
+        <br>
+        <br>
+        <label for="correo">Correo electronico:</label>
+        <br>
+        <input type="email" name="correo" id="correo " required>
+        <br>
+        <br>
+        <label for="Mensaje ">Mensaje:</label>
+        <br>
+        <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+        <br>
+        <input type="submit" value="enviar"> 
+    </form>
+    <footer>
+        <ul class="redes-sociales">
+            <li>
+                <a href="https://m.facebook.com/login/?locale=es_ES" target="_blank">
+                    <img src="https://icones.pro/wp-content/uploads/2021/02/facebook-logo-icone.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ89u--h0n01Mi22ths5s0OoRt68Lg2InrJGQ&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Salta la Linda</p>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

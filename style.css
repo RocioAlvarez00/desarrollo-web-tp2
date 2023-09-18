@@ -1,0 +1,99 @@
+body{
+    background-color:MistyRose;
+}
+ /* Estilo para el encabezado */
+header{
+    background-color:Pink;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+/* Estilo para la barra de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    text-align: right;
+}
+nav ul li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: pink;
+}
+
+
+ /* Estilo para las secciones */
+section{
+    padding: 10px;
+}
+section img{
+    height: 200px;
+    border: 2px solid;
+    margin: 5px;
+}
+
+  /* Estilo para el formulario */
+form {
+    margin: 6px;
+    padding: 10px;
+    color: black;
+    border: 1px solid pink;
+    border-radius: 8px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+form input[type="radio"] {
+    margin-right: 5px;
+}
+form input[type="submit"] {
+    background-color: #333;
+    color: rgb(255, 253, 253);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: Pink;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+  
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.redes-sociales li {
+    display: inline;
+    margin-right: 10px;
+}
+  
+.redes-sociales a {
+    text-decoration: none;
+    color: white;
+}
+  
+footer img{
+    height: 50px;
+}
+
